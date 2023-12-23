@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="login style.css">
+	  <link rel="icon" href="Images/facebook.png"/>
+  <title>Log in to facebook</title>
+ </head>
+ <body>					
+	<div>
+		<h2>facebook</h2>
+		<div class="div2">
+			<form method="post">
+				<h4>Login to Facebook</h4>
+				<p>
+					<input type="text" id="uid" name="uid" placeholder="Email address or Phone number" required autofocus>
+				</p>
+				<p>
+					<input type="password" id="pwd" name="pwd" placeholder="Password" required >
+				</p>
+				<p>
+					<button type="submit" id="sub" name="sub"><b>Log In</b></button>
+				</p>
+				<p class="p">
+					<a href="#">Forgotton account?</a>
+				</p>
+				<hr class="hr">
+				<div class="cre_new_ac">
+					<a style="color:white;"href="HTML Assignment No.1.html ">Create New	 Account</a>
+				</div>
+			</form>
+		</div>
+	</div>
+ </body>
+</html>
